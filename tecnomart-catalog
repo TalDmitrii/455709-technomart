@@ -12,7 +12,9 @@
           <img src="img/index-logo.svg" width="350" height="40"
             alt="Логотип сайта Техномарт">
         </a>
-        <button type="search">Поиск</button>
+        <label for="button-search">
+          <input type="search" id="button-search">Поиск
+        </label>
         <ul class="product-order-navigation">
           <li><a href="#">Закладки</a></li>
           <li><a class="there-is-a-product" href="#">Корзина: 10</a></li>
@@ -38,7 +40,7 @@
           <ul class="enter-login">
             <li><a class="button" href="#">Мои заказы</a></li>
             <li><a class="button" href="#">Личный кабинет</a></li>
-          <ul>
+          </ul>
         </div>
       </div>
       <nav class="main-navigation">
@@ -287,7 +289,7 @@
            бетоне и камне.<br>
            Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
            шуруповерта, и отбойного молотка. В<br>
-           ассортиментном ряду есть выбор <<трехрежимников>>: в одном устройстве будут совмещены отбойный молоток и ударная
+           ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная
            дрель.
         </p>
       </div>
@@ -317,8 +319,9 @@
         </ul>
       </div>
       <article class="footer-copyright-social-feedback">
+        <h2 class="visually-hidden">footer-info</h2>
         <p class="footer-copyright-info">
-          © 2010-2016 Компания <<Техномарт>><br>
+          © 2010-2016 Компания "Техномарт"<br>
           Все права защищены
         </p>
         <div class="footer-social">
