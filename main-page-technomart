@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
   <head lang="ru">
@@ -12,7 +13,8 @@
           <img src="img/index-logo.svg" width="350" height="40"
             alt="Логотип сайта Техномарт">
         </a>
-        <button type="search">Поиск</button>
+        <label for="button-search">Поиск</label>
+        <input type="search" id="button-search">
         <ul class="product-order-navigation">
           <li><a href="#">Закладки</a></li>
           <li><a href="#">Корзина</a></li>
@@ -32,7 +34,7 @@
         <ul class="enter-login">
           <li><a href="#">Войти</a></li>
           <li><a href="#">Регистрация</a></li>
-        <ul>
+        </ul>
       </div>
       <nav class="main-navigation">
         <ul>
@@ -221,7 +223,7 @@
         </div>
       </section>
       <section class="about-us two-thirds-width">
-        <h2>Компания <<ТЕХНОМАРТ>></h2>
+        <h2>Компания "ТЕХНОМАРТ"</h2>
         <p>
           Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и<br>
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.<br>
@@ -256,7 +258,7 @@
     <footer class="main-footer">
       <div class="footer-logo-contacts-navigation">
         <a href="#">
-          <img src="img/index-logo.svg" width="150" height="40"
+          <img src="img/index-logo.svg" width="350" height="40"
             alt="Логотип сайта Техномарт">
         </a>
         <p>
@@ -272,14 +274,15 @@
         </ul>
         <ul class="footer-product-navigation">
           <li><a href="#">Материалы</a></li>
-          <li><a href="#">Техника</a></li>
-          <li><a href="#">Инструмент</a></li>
-          <li><a href="#">Спецпредложения</a></li>
+          <li><a href="#">Тех</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
         </ul>
       </div>
       <article class="footer-copyright-social-feedback">
+        <h2 class="visually-hidden">footer-info</h2>
         <p class="footer-copyright-info">
-          © 2010-2016 Компания <<Техномарт>><br>
+          © 2010-2016 Компания "Техномарт"<br>
           Все права защищены
         </p>
         <div class="footer-social">
@@ -301,3 +304,4 @@
     </footer>
   </body>
 </html>
+
