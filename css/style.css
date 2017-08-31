@@ -1,23 +1,269 @@
 body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
   font-weight: normal;
-  font-family: sans-serif;
+  color: #ffffff;
+
+  background-color: #000000;
 }
 
-.h2-style {
+a {
+  text-decoration: none;
+}
+
+.top-main-header {
+  font-size: 17px;
+  line-height: 18px;
+
+  background-color: #293449;
+}
+
+.order-navigation a {
+  color: #ffffff;
+}
+
+.order-navigation .order {
+  background-color: #63a63e;
+}
+
+.user-navigation a {
+  color: #000000;
+}
+
+.logo {
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.main-header-info-contacts {
+  background-color: #f3f7f9;
+}
+
+.headline {
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+  font-style: italic;
+}
+
+.phone {
+  font-size: 21px;
+  line-height: 18px;
+  color: #ee3643;
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.user-navigation {
+  font-size: 21px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.main-navigation a {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.promo-block {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button.button-open {
+  color: #ffffff;
+}
+
+.slider h3 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.slider p {
+  font-family: "PTSans Regular", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button {
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+}
+
+.button-open {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.group-list h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.group-list a {
+  color: #ffffff;
+}
+
+.group-list .materials {
+  background-color: #ffbf47;
+}
+
+.group-list .instrument {
+  background-color: #3bbce3;
+}
+
+.group-list .technique {
+  background-color: #dc91d8;
+}
+
+.group-list .sales {
+  background-color: #8ed78f;
+}
+
+.group-list .delivery {
+  background-color: #ffc047;
+}
+
+.popular {
+  background-color: #ffffff;
+}
+
+.header-list {
+  background-color: #f9f5f0;
+}
+
+.header-list h2 {
   font-size: 30px;
   line-height: 30px;
-  color: #000000;
-  font-weight: normal;
-  font-family: sans-serif;
+  color: #32425c;
 }
 
-.h3-style {
-  font-size: 24px;
-  line-height: 30px;
+.header-list .button {
+  color: #ffffff;
+}
+
+.popular-product-list span {
+  font-size: 18px;
+  line-height: 20px;
   color: #000000;
-  font-weight: normal;
-  font-family: sans-serif;
+}
+
+.price-without-sale {
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+
+.product-item-price .button {
+  color: #ffffff;
+}
+
+.service {
+  background-color: #f9f5f0;
+  color: #000000;
+}
+
+.service h2 {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.service p {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+}
+
+.service-list a {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2f405c;
+}
+
+.current-list-item a {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.about-us.contacts {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.about-us h2 {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.about-us p {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.partners-list {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.about-us .button {
+  color: #ffffff;
+}
+
+.logo-footer {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.footer-navigation {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+
+  background-color: #2f405c;
+}
+
+.footer-navigation a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.footer-navigation .product-navigation a {
+  color: #ffd180;
+}
+
+.copyright-social-feedback {
+  font-size: 16px;
+  line-height: 18px;
+
+  background-color: #293449
+}
+
+.footer-feedback a {
+  color: #ffd180;
 }
