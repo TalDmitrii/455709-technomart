@@ -15,6 +15,27 @@ a {
   text-decoration: none;
 }
 
+a.button {
+  color: #ffffff;
+}
+
+.button {
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+}
+
+.button-price {
+  font-family: "PTSans Regular", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.main-header {
+  background-color: #f3f6f9;
+}
+
 .top-main-header {
   font-size: 17px;
   line-height: 18px;
@@ -28,10 +49,6 @@ a {
 
 .order-navigation .order {
   background-color: #63a63e;
-}
-
-.user-navigation a {
-  color: #000000;
 }
 
 .logo {
@@ -69,6 +86,13 @@ a {
   font-size: 21px;
   line-height: 18px;
   color: #000000;
+
+  background-color: #ffffff;
+}
+
+.user-navigation a {
+  color: #000000;
+
 }
 
 .main-navigation {
@@ -101,12 +125,6 @@ a {
   font-family: "PTSans Regular", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
-}
-
-.button {
-  text-transform: uppercase;
-
-  background-color: #ee3643;
 }
 
 .button-open {
@@ -266,4 +284,162 @@ a {
 
 .footer-feedback a {
   color: #ffd180;
+}
+
+.main-header-catalog .basket {
+  background-color: #ee3643;
+}
+
+.personal-cabinet span {
+  font-size: 21px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.personal-cabinet a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.container-catalog {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.breadcrumbs a {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+
+  background-color: #f2f6f8;
+}
+
+.filters h2 {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #f7f3ed;
+}
+
+.filters legend {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.price-filter {
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.manufacturer-filter ul {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.electric-feed-filter ul {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.submit-button {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.catalog-sorting {
+  background-color: #f7f3ed;
+}
+
+.catalog h2 {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.current-sorting {
+  color: #ee3643;
+}
+
+.sorting a {
+  color: rgba(0, 0, 0, 0.3);
+
+  text-decoration: underline;
+}
+
+.list-item a {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+
+  text-transform: none;
+}
+
+.button-buy a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #63a73c;
+}
+
+.button-bookmarks {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.pagination-list {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.pagination-list a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.perforator-info h2 {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.perforator-info {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+
+  text-transform: none;
+
+  background-color: #f3f7f9;
 }
