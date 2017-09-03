@@ -8,7 +8,7 @@ body {
   font-weight: normal;
   color: #ffffff;
 
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 a {
@@ -30,6 +30,10 @@ a.button {
   font-size: 17px;
   line-height: 18px;
   font-weight: 700;
+}
+
+.visually-hidden {
+  display: none;
 }
 
 .main-header {
@@ -286,6 +290,8 @@ a.button {
   color: #ffd180;
 }
 
+/*------Стили каталога------*/
+
 .main-header-catalog .basket {
   background-color: #ee3643;
 }
@@ -442,4 +448,95 @@ h1 {
   text-transform: none;
 
   background-color: #f3f7f9;
+}
+
+/*   Сеточные стили   */
+
+html,
+body {
+  min-width: 1200px;
+  min-height: 3151px;
+}
+
+.top-main-wrapper {
+  display: flex;
+  width: 940px;
+
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.logo-header {
+  width: 220px;
+
+  text-align: center;
+}
+
+.button-search {
+  width: 270px;
+}
+
+.order-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.order-navigation li {
+  width: 150px;
+
+  text-align: center;
+}
+
+.main-header-info-contacts {
+  display: flex;
+  width: 940px;
+  min-height: 158px;
+
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.headline {
+  width: 200px;
+  margin-left: 50px;
+}
+
+.header-contacts {
+  width: 405px;
+  margin-left: 70px;
+}
+
+.main-navigation {
+  width: 940px;
+  min-height: 60px;
+
+  margin: 0 auto;
+}
+
+
+.main-navigation ul {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.promo-block-wrapper {
+  display: flex;
+
+  width: 940px;
+
+  margin: 0 auto;
+}
+
+.promo-block-wrapper .group-list {
+  width: 300px;
+  min-height: 123px;
 }

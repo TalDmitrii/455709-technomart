@@ -6,22 +6,25 @@
     <title>Техномарт</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="top-main-header">
-        <a class="logo logo-header" href="index.html">
-          ТЕХНОМАРТ
-        </a>
-        <p>
-          <label for="button-search">Поиск</label>
-          <input type="search" id="button-search">
-        </p>
-        <ul class="order-navigation">
-          <li class="bookmarks"><a href="bookmarks.html">Закладки: 0</a></li>
-          <li class="basket"><a href="basket.html">Корзина: 0</a></li>
-          <li class="order"><a href="order.html">Оформить заказ</a></li>
-        </ul>
+        <div class="top-main-wrapper">
+            <a class="logo logo-header" href="index.html">
+              ТЕХНОМАРТ
+            </a>
+            <p class="button-search">
+              <label for="button-search">Поиск</label>
+              <input type="search" id="button-search">
+            </p>
+            <ul class="order-navigation">
+              <li class="bookmarks"><a href="bookmarks.html">Закладки: 0</a></li>
+              <li class="basket"><a href="basket.html">Корзина: 0</a></li>
+              <li class="order"><a href="order.html">Оформить заказ</a></li>
+            </ul>
+        </div>
       </div>
       <div class="main-header-info-contacts">
         <p class="headline">
@@ -29,112 +32,130 @@
             строительных материалов<br>
             и инструментов для ремонта
         </p>
-        <div class="phone">
-          +7 (812) 555-05-55
+        <div class="header-contacts">
+          <p class="phone">
+            +7 (812) 555-05-55
+          </p>
+          <p class="adress">
+            г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+          </p>
         </div>
-        <p class="adress">
-          г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
-        </p>
         <ul class="user-navigation">
           <li class="login-link"><a href="login.html">Войти</a></li>
           <li class="check-in"><a href="check-in.html">Регистрация</a></li>
         </ul>
       </div>
-      <nav class="main-navigation">
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="special-offer.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
+
+        <nav class="main-navigation">
+          <div class="main-navigation-wrapper">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="company.html">Компания</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="special-offer.html">Спецпредложения</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+
     </header>
     <main class="container">
       <section class="promo-block">
-        <h2 class="visually-hidden">Промо-блок</h2>
-          <ul>
-            <li class="catalog">
-              <div class="slider slider-1">
-                <h3>Перфораторы</h3>
-                <p>Настоящие мужские игрушки</p>
-                <img src="img/slider-1.jpg" width="620" height="270" alt="Техномарт">
-                <ul>
-                  <li>
-                    <a class="button button-open" href="technomart-catalog.psd">
-                      Открыть каталог
-                    </a>
-                  </li>
-                  <li>
-                    <a class="button-next" href="#">
-                      Вперёд
-                    </a>
-                  </li>
-                  <li>
-                    <a class="button-previous" href="#">
-                      Назад
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="visually-hidden">
-              <div class="slider slider-2">
-                <h3>Дрели</h3>
-                <p>Соседям на радость!</p>
-                <img src="img/slider-2.jpg" width="620" height="270" alt="Техномарт">
-                <ul>
-                  <li>
-                    <a class="button button-open" href="technomart-catalog.psd">
-                      Открыть каталог
-                    </a>
-                  </li>
-                  <li>
-                    <a class="button-next" href="#">
-                      Вперёд
-                    </a>
-                  </li>
-                  <li>
-                    <a class="button-previous" href="#">
-                      Назад
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="group-list">
-              <div class="materials">
-                <h3>Материалы </h3>
-                <a class="button" href="material.html">на любой вкус</a>
-              </div>
-            </li>
-            <li class="group-list">
-              <div class="instrument">
-                <h3>Инструмент </h3>
-                <a class="button" href="instrument.html">на все случаи</a>
-              </div>
-            </li>
-            <li class="group-list">
-              <div class="technique">
-                <h3>Техника </h3>
-                <a class="button" href="technique.html">для стройки</a>
-              </div>
-            </li>
-            <li class="group-list">
-              <div class="sales">
-                <h3>Скидки 50% </h3>
-                <a class="button" href="sales.html">на 350 товаров</a>
-              </div>
-            </li>
-            <li class="group-list">
-              <div class="delivery">
-                <h3>Доставка </h3>
-                <a class="button" href="delivery.html">бесплатно</a>
-              </div>
-            </li>
-          </ul>
+        <div class="promo-block-wrapper">
+          <h2 class="visually-hidden">Промо-блок</h2>
+            <table class="promo-block-table">
+              <tr>
+                <td class="group-list">
+                  <div class="materials">
+                    <h3>Материалы </h3>
+                    <a class="button" href="material.html">на любой вкус</a>
+                  </div>
+                </td>
+                <td class="group-list">
+                  <div class="instrument">
+                    <h3>Инструмент </h3>
+                    <a class="button" href="instrument.html">на все случаи</a>
+                  </div>
+                </td>
+                <td class="group-list">
+                  <div class="technique">
+                    <h3>Техника </h3>
+                    <a class="button" href="technique.html">для стройки</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" rowspan="2">
+                  <div class="catalog">
+                    <div class="slider slider-1">
+                      <img src="img/slider-1.jpg" width="620" height="266" alt="Техномарт">
+                      <div class="visually-hidden">
+                        <h3>Перфораторы</h3>
+                        <p>Настоящие мужские игрушки</p>
+                        <ul>
+                          <li>
+                            <a class="button button-open" href="technomart-catalog.psd">
+                              Открыть каталог
+                            </a>
+                          </li>
+                          <li>
+                            <a class="button-next" href="#">
+                              Вперёд
+                            </a>
+                          </li>
+                          <li>
+                            <a class="button-previous" href="#">
+                              Назад
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td class="visually-hidden">
+                  <div class="slider slider-2">
+                    <h3>Дрели</h3>
+                    <p>Соседям на радость!</p>
+                    <img src="img/slider-2.jpg" width="620" height="266" alt="Техномарт">
+                    <ul>
+                      <li>
+                        <a class="button button-open" href="technomart-catalog.psd">
+                          Открыть каталог
+                        </a>
+                      </li>
+                      <li>
+                        <a class="button-next" href="#">
+                          Вперёд
+                        </a>
+                      </li>
+                      <li>
+                        <a class="button-previous" href="#">
+                          Назад
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </td>
+                <td class="group-list">
+                  <div class="sales">
+                    <h3>Скидки 50% </h3>
+                    <a class="button" href="sales.html">на 350 товаров</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="group-list">
+                  <div class="delivery">
+                    <h3>Доставка </h3>
+                    <a class="button" href="delivery.html">бесплатно</a>
+                  </div>
+                </td>
+              </tr>
+          </table>
+        </div>
       </section>
       <section class="popular">
         <div class="popular-product">
