@@ -61,6 +61,8 @@ a.button {
   color: #ffffff;
 
   background-color: #ee3643;
+
+  box-shadow: 0 5px 0 0 #b82b36;
 }
 
 .main-header-info-contacts {
@@ -101,6 +103,8 @@ a.button {
 
 .main-navigation {
   background-color: #32425c;
+
+  box-shadow: 0 5px 0 0 #253148;
 }
 
 .main-navigation a {
@@ -477,6 +481,7 @@ body {
 
 .button-search {
   width: 270px;
+
   margin: auto;
 }
 
@@ -542,7 +547,7 @@ body {
   display: flex;
   list-style: none;
 
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   margin-bottom: 67px;
 }
@@ -550,6 +555,8 @@ body {
 .login-link {
   width: 121px;
 
+  padding-top: 14px;
+  text-align: center;
 
   margin-right: 10px;
 }
@@ -560,6 +567,10 @@ body {
 
   padding-top: 14px;
   padding-bottom: 11px;
+}
+
+.background-wrapper {
+  padding-bottom: 75px;
 }
 
 .main-navigation {
